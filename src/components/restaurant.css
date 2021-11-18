@@ -1,0 +1,86 @@
+/** @format */
+
+.mainRestorant {
+  margin: 2%;
+  background-color: white;
+  color: black;
+  box-shadow: 0px 2px 4px gray;
+}
+
+.main_div {
+  height: 200px;
+  width: 100%;
+  border: 1px solid rgb(116, 113, 113);
+  display: flex;
+}
+
+.image_div {
+  height: 90%;
+  width: 30%;
+  display: flex;
+  padding: 8px 8px;
+}
+.image_div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+}
+
+.details_div {
+  margin-top: 3%;
+  width: 50%;
+  font-size: 18px;
+}
+
+.order_online {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  border: 1px solid rgb(116, 113, 113);
+}
+.order_online button {
+  width: 30%;
+  height: 100%;
+  background-color: rgb(200, 245, 110);
+  color: rgb(7, 167, 55);
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+}
+.order_online button:hover {
+  background-color: red;
+  font-size: 25px;
+  color: white;
+}
+
+.ratings_div {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 45%;
+  margin-top: 3%;
+  margin-left: 3%;
+}
+
+.rating {
+  height: 40px;
+  width: 60px;
+  border-radius: 5px;
+  background-color: yellowgreen;
+  color: white;
+  box-shadow: 0px 0px 4px gray;
+}
+
+.rating b {
+  height: 40px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  cursor: pointer;
+}

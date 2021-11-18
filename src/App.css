@@ -1,0 +1,106 @@
+/** @format */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(233, 230, 230);
+}
+.App {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+}
+.App-header :hover {
+  transform: scale(1.01);
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+@media screen and (max-width: 768px) {
+  body {
+    background-color: olive;
+  }
+  .App-header {
+    grid-template-columns: 1fr;
+  }
+  .order_online button {
+    font-size: 15px !important;
+  }
+  .main_div {
+    height: 150px !important;
+    width: 100%;
+    border: 1px solid rgb(116, 113, 113);
+    display: flex;
+  }
+}
+
+.buttons-filter {
+  width: 60%;
+  height: 50px;
+  display: flex;
+  margin: auto;
+  margin-top: 8%;
+  justify-content: space-between;
+  align-items: center;
+}
+.buttons-filter :hover {
+  background-color: red;
+  font-size: 22px;
+}
+
+.filter {
+  height: 40px;
+  width: 18%;
+  background-color: yellowgreen;
+  box-shadow: 0px 0px 5px gray;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.buttons-payment {
+  width: 70%;
+  height: 50px;
+  display: flex;
+  margin: auto;
+  margin-top: 2%;
+  justify-content: space-between;
+  align-items: center;
+}
+.buttons-payment .filter {
+  height: 40px;
+  width: 23%;
+  background-color: yellowgreen;
+  box-shadow: 0px 0px 5px gray;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.buttons-payment :hover {
+  background-color: red;
+  font-size: 22px;
+}
+
+.buttons-filterLtoH {
+  width: 200px;
+  margin: auto;
+  margin-top: 2%;
+}
+.pop_btn {
+  width: 100% !important;
+}
